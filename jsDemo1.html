@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<!--
+Module: jsDemo1.html
+Project: jsDemo1
+Log:
+20180415 - Initial revision.
+-->
+<head>
+<title>
+JavaScript Example
+</title>
+<script type="text/javascript" src="jsDemo1.js"></script>
+</head>
+<body>
+<table cellpadding="30">
+<tr>
+<td>
+  <select id="evalType" onchange="displayGuide(this)">
+  <option value="0">Select Evaluation:</option>
+  <option value="1">Anagrams</option>
+  <option value="2">Semordnilaps</option>
+</select><br><br>
+  First word:<br>
+  <input type="text" name="firstword" id="firstWord" maxlength="10" size="10"><br><br>
+  Second word:<br>
+  <input type="text" name="secondword" id="secondWord" maxlength="10"  size="10"><br><br>
+  <button type="submit" value="Submit" onclick="submitAction()">Evaluate</button>
+<p id="ValidationResults"></p>
+</td>
+<td valign="top">
+<p id="Informational">Start by selecting an evaluation type, then enter two words.</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
