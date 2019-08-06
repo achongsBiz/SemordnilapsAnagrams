@@ -6,3 +6,5 @@ This is a demonstration of client side scripting in JavaScript that uses the fol
 Components:
 1. jsDemo1.html: All UI elements are contained here.
 2. jsDemo1.js: Main script containining all JavaScript functions.
+3. test.html: Unit test runner.
+4. test.js: Test script.
